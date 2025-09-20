@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CheatReactor.label>чіт-реактор</CheatReactor.label>
+  <CheatReactor.description>Виробляє величезну кількість електрики.</CheatReactor.description>
+
+  <ProCheatReactor.label>про чіт-реактор</ProCheatReactor.label>
+  <ProCheatReactor.description>Виробляє шалену кількість електрики. У 100 разів більше, ніж стандартний чіт-реактор.</ProCheatReactor.description>
+
+</LanguageData>

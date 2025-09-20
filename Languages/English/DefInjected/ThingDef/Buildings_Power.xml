@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CheatReactor.label>cheat reactor</CheatReactor.label>
+  <CheatReactor.description>Produces a huge amount of electricity.</CheatReactor.description>
+
+  <ProCheatReactor.label>pro cheat reactor</ProCheatReactor.label>
+  <ProCheatReactor.description>Produces an insane amount of electricity. 100 times more than a standard cheat reactor.</ProCheatReactor.description>
+
+</LanguageData>

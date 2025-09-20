@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Cheat Reactor</name>
+    <packageId>ViPok.ED.CheatReactor</packageId>
+	<url>https://github.com/ViPok137/Cheat-Reactor.git</url>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modVersion>2.0</modVersion>
+    <authors>
+        <li>Vi_Pok</li>
+        <li>Jaxxa</li>
+    </authors>
+    <description>
+Tired of constantly running out of power? Frustrated when your turrets shut down at the worst possible moment during a raid? Want to focus on developing your colony, trading, or waging war without worrying about wires and generators?
+
+This simple mod is for you. It doesn’t add anything complicated — just two buildings that will solve all your electricity problems once and for all.
+
+
+What the mod adds:
+
+The mod introduces two new power sources:
+
+Cheat Reactor: A powerful and reliable energy source, more than enough to cover the needs of a medium or even large colony.
+        
+Pro Cheat Reactor: An absurdly powerful generator for those who need to power absolutely everything. Perfect for massive bases, testing, or just playing without a care.
+
+    </description>
+</ModMetaData>

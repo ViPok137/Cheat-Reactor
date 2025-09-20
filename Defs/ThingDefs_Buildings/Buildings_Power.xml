@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Обычный чит-реактор. Всегда будет виден, так как использует стандартную категорию "Power". -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>CheatReactor</defName>
+    <label>Cheat Reactor</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>ED/Things/Building/CheatReactor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.3,0,5.4,6)</rect>
+      </damageData>
+    </graphicData>
+    <passability>Impassable</passability>
+    <blockLight>true</blockLight>
+    <fillPercent>1</fillPercent>
+    <blockWind>true</blockWind>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(0,51,0,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <transmitsPower>true</transmitsPower>
+        <basePowerConsumption>-1000000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+    </costList>
+    <designationCategory>Power</designationCategory>
+  </ThingDef>
+
+  <!-- Pro чит-реактор. Также всегда будет виден в категории "Power". -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>ProCheatReactor</defName>
+    <label>Pro Cheat Reactor</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>ED/Things/Building/CheatReactorPro</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5, 5)</drawSize>
+      <damageData>
+        <rect>(0.3,0,5.4,6)</rect>
+      </damageData>
+    </graphicData>
+    <passability>Impassable</passability>
+    <blockLight>true</blockLight>
+    <fillPercent>1</fillPercent>
+    <blockWind>true</blockWind>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(0,51,0,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <transmitsPower>true</transmitsPower>
+        <basePowerConsumption>-100000000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <statBases>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>50</Beauty>
+    </statBases>
+    <size>(5,5)</size>
+    <costList>
+    </costList>
+    <designationCategory>Power</designationCategory>
+  </ThingDef>
+
+</Defs>
